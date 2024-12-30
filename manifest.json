@@ -2,7 +2,7 @@
   "lang": "en-us",
   "name": "Web Apps",
   "description": "A PWA for quickly accessing the web without dealing with browser tabs",
-  "start_url": "/",
+  "start_url": "/WebApps",
   "orientation": "any",
   "display": "standalone"
 }
