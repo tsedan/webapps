@@ -1,0 +1,9 @@
+{
+  "lang": "en-us",
+  "name": "Progressive Web Application Maker",
+  "short_name": "PWA Maker",
+  "description": "A utility for creating PWAs from any website",
+  "start_url": "/",
+  "orientation": "any",
+  "display": "standalone"
+}
