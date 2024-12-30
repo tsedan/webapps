@@ -1,4 +1,4 @@
-const CACHE_NAME = `pwa-maker-v1`;
+const CACHE_NAME = `webapps-v1`;
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
