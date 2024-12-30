@@ -7,14 +7,18 @@
   <link rel="manifest" href="/webapps/manifest.json">
   <!-- <link rel="shortcut icon" href="link" /> -->
 
-  <link rel="stylesheet" href="/webapps/style.css">
-  <script src="/webapps/script.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js"></script>
 
   <title>Web Apps</title>
 </head>
 
-<body>
-  <h1>Please come back soon!</h1>
+<body onload="initialize()">
+  <form id="search" class="centered hidden" onsubmit="openWebsite()" target="dummyframe">
+    <input id="searchbox" type="text" name="text" class="input" placeholder="Enter URL...">
+  </form>
+
+  <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 </body>
 
 </html>
